@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-ARG BASEIMAGE=ubuntu:rolling
+ARG BASEIMAGE=ubuntu==24.04
 FROM $BASEIMAGE
 MAINTAINER Sebastian Braun <sebastian.braun@fh-aachen.de>
 
